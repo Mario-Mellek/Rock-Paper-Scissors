@@ -55,9 +55,7 @@ function winner(){
             MACHHINE_SCORE+=1;
             console.log(`You Lose.\n${COMPUTER} beats ${HUMAN}.`);
             break;
-        case 'paperpaper':
-        case 'rockrock':
-        case 'scissorsscissors':
+            default:
             console.log(`It's a Tie.`);
     };
     console.log(`You:${HUMAN_SCORE} vs Computer:${MACHHINE_SCORE}`)
